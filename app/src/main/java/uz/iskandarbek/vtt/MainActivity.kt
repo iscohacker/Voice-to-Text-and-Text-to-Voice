@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         textView = findViewById(R.id.text)
         copyButton = findViewById(R.id.copy)
         eraser = findViewById(R.id.eraser)
+
         eraser.setOnClickListener {
             textView.text = "Javob so'z bu yerda ko'rinadi"
         }
